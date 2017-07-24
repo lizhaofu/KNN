@@ -9,6 +9,7 @@ import org.wltea.analyzer.core.Lexeme;
 
 
 public class WordCount {
+	int a = 0;
 	
 	public static void chineseCharacterWordCount(Map<String,Integer> wordCountMap,String text){
 		StringReader line = new StringReader(text);
